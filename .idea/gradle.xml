@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/compass" />
+            <option value="$PROJECT_DIR$/mymvp" />
+            <option value="$PROJECT_DIR$/okhttp" />
             <option value="$PROJECT_DIR$/shuipingyi" />
             <option value="$PROJECT_DIR$/sos" />
           </set>

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DianDianDome.iml" filepath="$PROJECT_DIR$/DianDianDome.iml" />
       <module fileurl="file://$PROJECT_DIR$/compass/compass.iml" filepath="$PROJECT_DIR$/compass/compass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymvp/mymvp.iml" filepath="$PROJECT_DIR$/mymvp/mymvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp/okhttp.iml" filepath="$PROJECT_DIR$/okhttp/okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/shuipingyi/shuipingyi.iml" filepath="$PROJECT_DIR$/shuipingyi/shuipingyi.iml" />
       <module fileurl="file://$PROJECT_DIR$/sos/sos.iml" filepath="$PROJECT_DIR$/sos/sos.iml" />
     </modules>
