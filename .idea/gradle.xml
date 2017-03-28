@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/okhttp" />
             <option value="$PROJECT_DIR$/shuipingyi" />
             <option value="$PROJECT_DIR$/sos" />
+            <option value="$PROJECT_DIR$/surfaceview" />
+            <option value="$PROJECT_DIR$/zhuanpan" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

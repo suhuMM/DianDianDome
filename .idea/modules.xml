@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/okhttp/okhttp.iml" filepath="$PROJECT_DIR$/okhttp/okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/shuipingyi/shuipingyi.iml" filepath="$PROJECT_DIR$/shuipingyi/shuipingyi.iml" />
       <module fileurl="file://$PROJECT_DIR$/sos/sos.iml" filepath="$PROJECT_DIR$/sos/sos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surfaceview/surfaceview.iml" filepath="$PROJECT_DIR$/surfaceview/surfaceview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuanpan/zhuanpan.iml" filepath="$PROJECT_DIR$/zhuanpan/zhuanpan.iml" />
     </modules>
   </component>
 </project>

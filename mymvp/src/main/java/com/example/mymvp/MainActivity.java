@@ -13,7 +13,7 @@ import com.example.mymvp.bean.Tngou;
 import com.google.gson.Gson;
 
 import jp.wasabeef.glide.transformations.BlurTransformation;
-import jp.wasabeef.glide.transformations.CropSquareTransformation;
+import jp.wasabeef.glide.transformations.CropCircleTransformation;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity implements Callback<String> 
         Glide
             .with(this)
             .load("http://dev-kupao.mobifox.cn//Beauty/sportsdata/starts/2017-02-27/58b3e94c35cc6.jpg")
-            .bitmapTransform(new BlurTransformation(this,1))
-//            .bitmapTransform(new CropCircleTransformation(this))//圆形
-            .bitmapTransform(new CropSquareTransformation(this))//正方形
+            .bitmapTransform(new BlurTransformation(this,25))
+            .bitmapTransform(new CropCircleTransformation(this))//圆形
+//            .bitmapTransform(new CropSquareTransformation(this))//正方形
             .into(imageView);
 
     }
