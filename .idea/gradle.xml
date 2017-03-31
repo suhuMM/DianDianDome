@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/chess" />
             <option value="$PROJECT_DIR$/compass" />
             <option value="$PROJECT_DIR$/mymvp" />
             <option value="$PROJECT_DIR$/okhttp" />
@@ -15,6 +16,7 @@
             <option value="$PROJECT_DIR$/sos" />
             <option value="$PROJECT_DIR$/surfaceview" />
             <option value="$PROJECT_DIR$/zhuanpan" />
+            <option value="$PROJECT_DIR$/zidingyiview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

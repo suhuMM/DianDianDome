@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.zidingyiview.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        view:color="@color/color"
+        view:text="你好j"
+        view:text_color="@color/text_color"
+        view:text_size="100"
+        view:click="false"
+        view:radius="260"
+        view:left="500"
+        view:right="500"
+        />
+</RelativeLayout>
