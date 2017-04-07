@@ -112,14 +112,13 @@ public class ChessView extends View{
         start = startX+7*size-chessTextSize/2;
         canvas.drawText("炮",start,chessBaseLine,paint);
 
+        //paint.setTextSkewX((float) Math.PI/2);
         paint.setTextSize(150);
         String name = "中国象棋";
         float length  = paint.measureText(name);
         start = (width-length)/2;
         baseLine = startY+11*size-(fm.ascent+fm.descent)/2;
         canvas.drawText(name,start,baseLine,paint);
-
-
 
     }
 }
