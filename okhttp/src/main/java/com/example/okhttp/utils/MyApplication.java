@@ -3,6 +3,8 @@ package com.example.okhttp.utils;
 import android.app.Application;
 
 import com.zhy.http.okhttp.OkHttpUtils;
+import com.zhy.http.okhttp.cookie.CookieJarImpl;
+import com.zhy.http.okhttp.cookie.store.PersistentCookieStore;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,14 +21,15 @@ public class MyApplication extends Application {
 
         //初始化全局Context
         ContextUtil.init(getApplicationContext());
-        
+        CookieJarImpl cookieJar = new CookieJarImpl(new PersistentCookieStore(getApplicationContext()));
         //网络连接配置
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .connectTimeout(50000L, TimeUnit.MILLISECONDS)
                 .readTimeout(50000L, TimeUnit.MILLISECONDS)
+                .cookieJar(cookieJar)
                 .build();
         OkHttpUtils.initClient(okHttpClient);
-
+//https://github.com/hongyangAndroid/okhttputils
 //        CrashHandler crashHandler = CrashHandler.getInstance();
 //        crashHandler.init(getApplicationContext());
     }

@@ -20,4 +20,6 @@ public interface RequestData {
 
     @POST(ApiUrl.UPLOAD)
     Call<String> upload(@Query("des") String des );
+
+
 }
