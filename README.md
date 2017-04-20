@@ -4,7 +4,7 @@ DianDianDome项目
 -----------
 2.水平仪
 -------
-#[水平仪图](https://github.com/suhuMM/DianDianDome/edit/master/image/shuiping.png)
+# ![](https://github.com/suhuMM/DianDianDome/edit/master/image/shuiping.png)
 
 3.使用surfaceview自定义转盘
 -------------------------
