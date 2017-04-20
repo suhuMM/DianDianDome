@@ -8,6 +8,8 @@ DianDianDome项目
 
 3.使用surfaceview自定义转盘
 -------------------------
+#[转盘](https://github.com/suhuMM/DianDianDome/edit/master/image/zhuanpan.png)
+
 4.自定义象棋棋盘
 ---------------
 #[棋盘](https://github.com/suhuMM/DianDianDome/edit/master/image/chess.png)
