@@ -1,1 +1,1 @@
-include ':sos', ':shuipingyi', ':compass', ':okhttp', ':mymvp', ':zhuanpan', ':surfaceview', ':zidingyiview', ':chess', ':besselline'
+include ':sos', ':shuipingyi', ':compass', ':okhttp', ':mymvp', ':zhuanpan', ':surfaceview', ':zidingyiview', ':chess', ':besselline', ':agentwebview'

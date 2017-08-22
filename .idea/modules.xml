@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DianDianDome.iml" filepath="$PROJECT_DIR$/DianDianDome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agentwebview/agentwebview.iml" filepath="$PROJECT_DIR$/agentwebview/agentwebview.iml" />
       <module fileurl="file://$PROJECT_DIR$/besselline/besselline.iml" filepath="$PROJECT_DIR$/besselline/besselline.iml" />
       <module fileurl="file://$PROJECT_DIR$/chess/chess.iml" filepath="$PROJECT_DIR$/chess/chess.iml" />
       <module fileurl="file://$PROJECT_DIR$/compass/compass.iml" filepath="$PROJECT_DIR$/compass/compass.iml" />
