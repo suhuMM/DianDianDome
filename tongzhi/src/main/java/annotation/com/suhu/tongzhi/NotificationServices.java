@@ -37,6 +37,15 @@ public class NotificationServices extends Service {
 
     }
 
+    /**
+     *@method 发送通知
+     *@author suhu
+     *@time 2017/9/1 15:21
+     *@description 只要提醒时间小于当前时间就移除该队列里的消息
+     * type值1：直接显示（移除）
+     *       2：与用户交互，先删除，然后看情况添加
+     * id：用不同id来区分通知
+    */
     private void sendNotification() {
         new Thread(new Runnable() {
             @Override
@@ -50,16 +59,21 @@ public class NotificationServices extends Service {
                     long time = System.currentTimeMillis();
                     eventsList = MyApp.getInstance().getEventsList();
                     for (int i = 0; i < eventsList.size(); i++) {
-                        long remindingTime = getTime(eventsList.get(i).getRemindingTime());
+                        Event event = eventsList.get(i);
+                        long remindingTime = getTime(event.getRemindingTime());
                         if (remindingTime < time ) {
                             if (time - remindingTime < SPACING_TIME){
-                                NotificationUtils.showNotification(
-                                        NotificationServices.this
-                                        , eventsList.get(i)
-                                        , id);
+                                if (event.getType()==0){
+                                    //直接显示
+                                    NotificationUtils.directShowNotification(NotificationServices.this, event, id);
+                                }else {
+                                    //与用户交互
+                                    NotificationUtils.showNotification(NotificationServices.this, event, id);
+                                }
                                 id++;
                             }
                             eventsList.remove(i);
+
                         }
 
                     }

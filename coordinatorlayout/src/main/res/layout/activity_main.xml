@@ -44,7 +44,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <annotation.com.suhu.coordinatorlayout.MyNestedScrollView
+    <android.support.v4.widget.NestedScrollView
         android:id="@+id/nested"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -52,10 +52,11 @@
         android:layout_gravity="fill_vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <annotation.com.suhu.coordinatorlayout.MyViewPager
+        <android.support.v4.view.ViewPager
             android:id="@+id/view_pager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-    </annotation.com.suhu.coordinatorlayout.MyNestedScrollView>
+    </android.support.v4.widget.NestedScrollView>
 
 </android.support.design.widget.CoordinatorLayout>

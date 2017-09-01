@@ -3,6 +3,7 @@ package annotation.com.suhu.coordinatorlayout;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements IALayout {
     @BindView(R.id.table)
     private TabLayout tab;
     @BindView(R.id.view_pager)
-    private MyViewPager pager;
+    private ViewPager pager;
     @BindView(R.id.nested)
     private NestedScrollView nested;
 
