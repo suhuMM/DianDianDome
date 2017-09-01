@@ -7,11 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/besselline/besselline.iml" filepath="$PROJECT_DIR$/besselline/besselline.iml" />
       <module fileurl="file://$PROJECT_DIR$/chess/chess.iml" filepath="$PROJECT_DIR$/chess/chess.iml" />
       <module fileurl="file://$PROJECT_DIR$/compass/compass.iml" filepath="$PROJECT_DIR$/compass/compass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coordinatorlayout/coordinatorlayout.iml" filepath="$PROJECT_DIR$/coordinatorlayout/coordinatorlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/measureview/measureview.iml" filepath="$PROJECT_DIR$/measureview/measureview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymvp/mymvp.iml" filepath="$PROJECT_DIR$/mymvp/mymvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttp/okhttp.iml" filepath="$PROJECT_DIR$/okhttp/okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/shuipingyi/shuipingyi.iml" filepath="$PROJECT_DIR$/shuipingyi/shuipingyi.iml" />
       <module fileurl="file://$PROJECT_DIR$/sos/sos.iml" filepath="$PROJECT_DIR$/sos/sos.iml" />
       <module fileurl="file://$PROJECT_DIR$/surfaceview/surfaceview.iml" filepath="$PROJECT_DIR$/surfaceview/surfaceview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tongzhi/tongzhi.iml" filepath="$PROJECT_DIR$/tongzhi/tongzhi.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhuanpan/zhuanpan.iml" filepath="$PROJECT_DIR$/zhuanpan/zhuanpan.iml" />
       <module fileurl="file://$PROJECT_DIR$/zidingyiview/zidingyiview.iml" filepath="$PROJECT_DIR$/zidingyiview/zidingyiview.iml" />
     </modules>

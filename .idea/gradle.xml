@@ -12,11 +12,14 @@
             <option value="$PROJECT_DIR$/besselline" />
             <option value="$PROJECT_DIR$/chess" />
             <option value="$PROJECT_DIR$/compass" />
+            <option value="$PROJECT_DIR$/coordinatorlayout" />
+            <option value="$PROJECT_DIR$/measureview" />
             <option value="$PROJECT_DIR$/mymvp" />
             <option value="$PROJECT_DIR$/okhttp" />
             <option value="$PROJECT_DIR$/shuipingyi" />
             <option value="$PROJECT_DIR$/sos" />
             <option value="$PROJECT_DIR$/surfaceview" />
+            <option value="$PROJECT_DIR$/tongzhi" />
             <option value="$PROJECT_DIR$/zhuanpan" />
             <option value="$PROJECT_DIR$/zidingyiview" />
           </set>

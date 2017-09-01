@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="annotation.com.suhu.measureview.MainActivity">
+
+
+    <annotation.com.suhu.measureview.MyViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#ff0000"
+            android:text="第一个"
+            android:textSize="40sp"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#00ff00"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#0000ff"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#cccccc"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#367880"
+
+            />
+    </annotation.com.suhu.measureview.MyViewGroup>
+
+</android.support.constraint.ConstraintLayout>
